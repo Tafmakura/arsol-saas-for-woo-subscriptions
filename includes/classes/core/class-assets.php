@@ -74,19 +74,19 @@ class Assets {
      * Enqueue scripts
      */
     public function enqueue_scripts() {
-        $css_version = $this->get_file_version('assets/css/arsol-plugin-boilerplate-frontend.css');
-        $js_version = $this->get_file_version('assets/js/arsol-plugin-boilerplate-frontend.js');
+        $css_version = $this->get_file_version('assets/css/arsol-saas-for-woo-subscriptions-frontend.css');
+        $js_version = $this->get_file_version('assets/js/arsol-saas-for-woo-subscriptions-frontend.js');
 
         wp_enqueue_style(
             'arsol-plugin',
-            \ARSOL_PLUGIN_URL . 'assets/css/arsol-plugin-boilerplate-frontend.css',
+            \ARSOL_PLUGIN_URL . 'assets/css/arsol-saas-for-woo-subscriptions-frontend.css',
             array(),
             $css_version
         );
 
         wp_enqueue_script(
             'arsol-plugin',
-            \ARSOL_PLUGIN_URL . 'assets/js/arsol-plugin-boilerplate-frontend.js',
+            \ARSOL_PLUGIN_URL . 'assets/js/arsol-saas-for-woo-subscriptions-frontend.js',
             array('jquery'),
             $js_version,
             true

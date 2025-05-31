@@ -75,8 +75,8 @@ class HelloWorld {
      */
     public function add_menu_page() {
         add_menu_page(
-            __('Arsol SaaS for Woo Subscriptions', 'arsol-plugin-boilerplate'),
-            __('Arsol SaaS for Woo Subscriptions', 'arsol-plugin-boilerplate'),
+            __('Arsol SaaS for Woo Subscriptions', 'arsol-saas-for-woo-subscriptions'),
+            __('Arsol SaaS for Woo Subscriptions', 'arsol-saas-for-woo-subscriptions'),
             'edit_posts',
             'arsol-hello-world',
             [$this, 'render_page'],
@@ -104,7 +104,7 @@ class HelloWorld {
         // Add settings section
         add_settings_section(
             'arsol_hello_world_section',
-            __('Hello World Settings', 'arsol-plugin-boilerplate'),
+            __('Hello World Settings', 'arsol-saas-for-woo-subscriptions'),
             [$this, 'render_section'],
             $this->page
         );
@@ -112,7 +112,7 @@ class HelloWorld {
         // Add settings field
         add_settings_field(
             'arsol_hello_world_message',
-            __('Custom Message', 'arsol-plugin-boilerplate'),
+            __('Custom Message', 'arsol-saas-for-woo-subscriptions'),
             [$this, 'render_field'],
             $this->page,
             'arsol_hello_world_section',
@@ -147,7 +147,7 @@ class HelloWorld {
      * Render section description
      */
     public function render_section() {
-        echo '<p>' . esc_html__('Configure your Hello World message settings.', 'arsol-plugin-boilerplate') . '</p>';
+        echo '<p>' . esc_html__('Configure your Hello World message settings.', 'arsol-saas-for-woo-subscriptions') . '</p>';
     }
 
     /**
@@ -164,7 +164,7 @@ class HelloWorld {
                value="<?php echo esc_attr($value); ?>" 
                class="regular-text">
         <p class="description">
-            <?php echo esc_html__('Enter a custom message to display.', 'arsol-plugin-boilerplate'); ?>
+            <?php echo esc_html__('Enter a custom message to display.', 'arsol-saas-for-woo-subscriptions'); ?>
         </p>
         <?php
     }

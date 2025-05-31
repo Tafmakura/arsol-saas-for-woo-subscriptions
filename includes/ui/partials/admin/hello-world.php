@@ -15,11 +15,11 @@ $saved_message = get_option('arsol_hello_world_message', '');
 ?>
 
 <div class="wrap">
-    <h1><?php echo esc_html__('Hello World!', 'arsol-plugin-boilerplate'); ?></h1>
+    <h1><?php echo esc_html__('Hello World!', 'arsol-saas-for-woo-subscriptions'); ?></h1>
     
     <?php if (isset($_GET['settings-updated'])) : ?>
         <div class="notice notice-success is-dismissible">
-            <p><?php echo esc_html__('Settings saved successfully!', 'arsol-plugin-boilerplate'); ?></p>
+            <p><?php echo esc_html__('Settings saved successfully!', 'arsol-saas-for-woo-subscriptions'); ?></p>
         </div>
     <?php endif; ?>
 
@@ -28,7 +28,7 @@ $saved_message = get_option('arsol_hello_world_message', '');
         <table class="form-table">
             <tr>
                 <th scope="row">
-                    <label for="arsol_hello_world_message"><?php echo esc_html__('Message', 'arsol-plugin-boilerplate'); ?></label>
+                    <label for="arsol_hello_world_message"><?php echo esc_html__('Message', 'arsol-saas-for-woo-subscriptions'); ?></label>
                 </th>
                 <td>
                     <input type="text" id="arsol_hello_world_message" name="arsol_hello_world_message" value="<?php echo esc_attr($saved_message); ?>" class="regular-text">
@@ -40,7 +40,7 @@ $saved_message = get_option('arsol_hello_world_message', '');
 
     <?php if ($saved_message) : ?>
         <div class="arsol-message-preview" style="margin-top: 20px; padding: 20px; background: #f8f9fa; border-radius: 5px;">
-            <h3><?php echo esc_html__('Message Preview:', 'arsol-plugin-boilerplate'); ?></h3>
+            <h3><?php echo esc_html__('Message Preview:', 'arsol-saas-for-woo-subscriptions'); ?></h3>
             <p><?php echo esc_html($saved_message); ?></p>
         </div>
     <?php endif; ?>

@@ -46,7 +46,7 @@ class Shortcodes {
      */
     public function render_shortcode($atts) {
         $atts = shortcode_atts(array(
-            'title' => __('ARSOL Plugin', 'arsol-plugin-boilerplate'),
+            'title' => __('ARSOL SaaS for Woo Subscriptions', 'arsol-saas-for-woo-subscriptions'),
         ), $atts, 'arsol_plugin');
 
         ob_start();
