@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Arsol SaaS for Woo Subscriptions
  * Plugin URI: https://arsol.com
- * Description: A WordPress plugin boilerplate for ARSOL
+ * Description: SaaSify your Woo Subscriptions 
  * Version: 0.0.1
  * Author: ARSOL
  * Author URI: https://arsol.com

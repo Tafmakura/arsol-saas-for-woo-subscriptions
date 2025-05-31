@@ -63,8 +63,8 @@ class HelloWorld {
      */
     public function add_menu_page() {
         add_menu_page(
-            __('Hello World', 'arsol-plugin-boilerplate'),
-            __('Hello World', 'arsol-plugin-boilerplate'),
+            __('Arsol SaaS for Woo Subscriptions', 'arsol-plugin-boilerplate'),
+            __('Arsol SaaS for Woo Subscriptions', 'arsol-plugin-boilerplate'),
             'edit_posts',
             'arsol-hello-world',
             [$this, 'render_page'],
