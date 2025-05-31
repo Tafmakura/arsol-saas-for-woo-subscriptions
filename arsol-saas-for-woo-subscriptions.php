@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Arsol SaaS for WooCommerce Subscriptions
+ * Plugin Name: Arsol SaaS for Woo Subscriptions
  * Plugin URI: https://arsol.co.za
- * Description: A SaaS solution for WooCommerce Subscriptions
+ * Description: A SaaS solution for Woo Subscriptions
  * Version: 0.0.3
  * Author: Arsol
  * Author URI: https://arsol.co.za
