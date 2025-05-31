@@ -1,5 +1,11 @@
 <?php
-namespace ArsolPluginBoilerplate\Classes\Admin;
+/**
+ * Admin class
+ *
+ * @package ArsolSaasForWooSubscriptions
+ */
+
+namespace ArsolSaasForWooSubscriptions\Classes\Admin;
 
 // Exit if accessed directly
 if (!defined('ABSPATH')) {
@@ -7,9 +13,10 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * Admin Class
+ * Class Admin
+ * Handles admin functionality
  *
- * @package ArsolPluginBoilerplate\Classes\Admin
+ * @package ArsolSaasForWooSubscriptions\Classes\Admin
  */
 class Admin {
     /**

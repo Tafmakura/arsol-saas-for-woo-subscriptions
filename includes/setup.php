@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin setup and initialization
+ * Setup file
  *
- * @package ArsolPluginBoilerplate
+ * @package ArsolSaasForWooSubscriptions
  */
 
 // Exit if accessed directly

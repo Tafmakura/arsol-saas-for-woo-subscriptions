@@ -2,10 +2,10 @@
 /**
  * Setup class for the plugin
  *
- * @package ArsolPluginBoilerplate
+ * @package ArsolSaasForWooSubscriptions
  */
 
-namespace ArsolPluginBoilerplate\Classes;
+namespace ArsolSaasForWooSubscriptions\Classes;
 
 // Exit if accessed directly
 if (!defined('ABSPATH')) {
@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
  * Class Setup
  * Handles manual loading of plugin classes
  *
- * @package ArsolPluginBoilerplate\Classes
+ * @package ArsolSaasForWooSubscriptions\Classes
  */
 class Setup {
     /**
@@ -53,6 +53,7 @@ class Setup {
         // Admin classes
         require_once ARSOL_PLUGIN_DIR . 'includes/classes/admin/class-admin.php';
         require_once ARSOL_PLUGIN_DIR . 'includes/classes/admin/class-admin-hello-world.php';
+        require_once ARSOL_PLUGIN_DIR . 'includes/classes/admin/class-admin-woocommerce.php';
 
         // Frontend classes
         require_once ARSOL_PLUGIN_DIR . 'includes/classes/frontend/class-shortcodes.php';
@@ -61,6 +62,7 @@ class Setup {
         Core\Assets::get_instance();
         Admin\Admin::get_instance();
         Admin\HelloWorld::get_instance();
+        Admin\WooCommerce::get_instance();
         Frontend\Shortcodes::get_instance();
     }
 } 

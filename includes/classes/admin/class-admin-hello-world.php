@@ -1,11 +1,23 @@
 <?php
-namespace ArsolPluginBoilerplate\Classes\Admin;
+/**
+ * Admin Hello World class
+ *
+ * @package ArsolSaasForWooSubscriptions
+ */
+
+namespace ArsolSaasForWooSubscriptions\Classes\Admin;
 
 // Exit if accessed directly
 if (!defined('ABSPATH')) {
     exit;
 }
 
+/**
+ * Class HelloWorld
+ * Handles admin hello world functionality
+ *
+ * @package ArsolSaasForWooSubscriptions\Classes\Admin
+ */
 class HelloWorld {
     /**
      * HelloWorld instance

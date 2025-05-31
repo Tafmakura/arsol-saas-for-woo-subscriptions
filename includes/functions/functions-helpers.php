@@ -2,7 +2,7 @@
 /**
  * Helper functions
  *
- * @package ArsolPluginBoilerplate
+ * @package ArsolSaasForWooSubscriptions
  */
 
 // Exit if accessed directly

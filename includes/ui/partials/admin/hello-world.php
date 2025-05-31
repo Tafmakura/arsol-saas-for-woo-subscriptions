@@ -1,8 +1,8 @@
 <?php
 /**
- * Admin Hello World partial
+ * Admin Hello World template
  *
- * @package ArsolPluginBoilerplate
+ * @package ArsolSaasForWooSubscriptions
  */
 
 // Exit if accessed directly

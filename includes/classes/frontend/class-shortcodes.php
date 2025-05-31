@@ -1,5 +1,11 @@
 <?php
-namespace ArsolPluginBoilerplate\Classes\Frontend;
+/**
+ * Shortcodes class
+ *
+ * @package ArsolSaasForWooSubscriptions
+ */
+
+namespace ArsolSaasForWooSubscriptions\Classes\Frontend;
 
 // Exit if accessed directly
 if (!defined('ABSPATH')) {
@@ -7,7 +13,10 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * Shortcodes class
+ * Class Shortcodes
+ * Handles shortcodes functionality
+ *
+ * @package ArsolSaasForWooSubscriptions\Classes\Frontend
  */
 class Shortcodes {
     /**

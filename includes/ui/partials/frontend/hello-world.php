@@ -1,8 +1,8 @@
 <?php
 /**
- * Hello World partial
+ * Frontend Hello World template
  *
- * @package ArsolPluginBoilerplate
+ * @package ArsolSaasForWooSubscriptions
  */
 
 // Exit if accessed directly

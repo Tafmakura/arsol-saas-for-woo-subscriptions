@@ -1,17 +1,17 @@
 <?php
 /**
- * Plugin Name: Arsol SaaS for Woo Subscriptions
- * Plugin URI: https://arsol.com
- * Description: SaaSify your Woo Subscriptions 
- * Version: 0.0.1
- * Author: ARSOL
- * Author URI: https://arsol.com
- * Text Domain: arsol-plugin-boilerplate
+ * Plugin Name: Arsol SaaS for WooCommerce Subscriptions
+ * Plugin URI: https://arsol.co.za
+ * Description: A SaaS solution for WooCommerce Subscriptions
+ * Version: 1.0.1
+ * Author: Arsol
+ * Author URI: https://arsol.co.za
+ * Text Domain: arsol-saas-for-woo-subscriptions
  * Domain Path: /languages
  * Requires at least: 5.8
  * Requires PHP: 7.4
  * 
- * @package ArsolPluginBoilerplate
+ * @package ArsolSaasForWooSubscriptions
  */
 
 // Exit if accessed directly

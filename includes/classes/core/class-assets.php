@@ -1,5 +1,11 @@
 <?php
-namespace ArsolPluginBoilerplate\Classes\Core;
+/**
+ * Assets class
+ *
+ * @package ArsolSaasForWooSubscriptions
+ */
+
+namespace ArsolSaasForWooSubscriptions\Classes\Core;
 
 // Exit if accessed directly
 if (!defined('ABSPATH')) {
@@ -7,9 +13,10 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * Assets Class
+ * Class Assets
+ * Handles assets loading
  *
- * @package ArsolPluginBoilerplate\Classes\Core
+ * @package ArsolSaasForWooSubscriptions\Classes\Core
  */
 class Assets {
     /**
