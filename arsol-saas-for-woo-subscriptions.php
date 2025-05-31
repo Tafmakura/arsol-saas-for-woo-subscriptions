@@ -3,7 +3,7 @@
  * Plugin Name: Arsol SaaS for WooCommerce Subscriptions
  * Plugin URI: https://arsol.co.za
  * Description: A SaaS solution for WooCommerce Subscriptions
- * Version: 0.0.2
+ * Version: 0.0.3
  * Author: Arsol
  * Author URI: https://arsol.co.za
  * Text Domain: arsol-saas-for-woo-subscriptions
